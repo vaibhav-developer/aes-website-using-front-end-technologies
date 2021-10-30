@@ -1,0 +1,344 @@
+@media screen and (max-width: 78.2em) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+  .footer-info-inner-container {
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .footer-Sign-up {
+    padding: 1.2rem 2.4rem;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 62.25em) {
+  html {
+    font-size: 62.5%;
+  }
+  .header-nav-bar-c {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* Fixing Abhinav Hero Text Box Hero Section */
+  .hero-container {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+    /* position: relative !important; */
+  }
+  .hero-text-container {
+    position: relative !important;
+    /* left: 13%;
+    top: 45%; */
+    margin-bottom: 5rem;
+
+    text-align: center;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .button-apply:link {
+    padding: 1.4rem 1.8rem;
+    font-size: 1.6rem;
+  }
+  /* About-Abhinav/Student/News Section */
+  .Aes-about-containt-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* De-Positining News Section as Normal  */
+  .latest-news {
+    display: none !important;
+    position: relative;
+    transform: translate(0, 0);
+    grid-row: 1;
+    grid-column: 1/-1;
+    justify-self: center;
+    text-align: center;
+  }
+
+  /* AES-Features Section */
+  .featured-cources-box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+  .BOX--3 {
+    grid-column: 1/-1;
+    justify-self: center;
+    max-width: 46rem;
+  }
+
+  /* Take a Tour Section */
+  .Aes-Take-Tour-inner-c {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .take-tour-text-c {
+    grid-row: 1;
+  }
+  .text-inner-c {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .take-a-tour-heading {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  .tat-para-heading {
+    margin-bottom: 2rem;
+  }
+  .tat-sub-para {
+    margin-bottom: 2.4rem;
+  }
+  .Aes-social-l-tat {
+    justify-content: center;
+  }
+  /* Youtube Frame */
+  .youtube-frame-container {
+    justify-self: center;
+  }
+
+  /* Aes-Events-Stories Section */
+
+  .AESS-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+
+    justify-content: center;
+  }
+  .YFP-Latest-News-bottom-media {
+    display: block;
+  }
+
+  /* Footer-Info */
+
+  .footer-info-inner-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4rem;
+    row-gap: 6rem;
+    padding: 5rem;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .event-time {
+    font-size: 1.4rem;
+  }
+}
+
+/* Converting Into Mobile & Tablet View */
+@media screen and (max-width: 48em) {
+  /* Disable Nav Bar */
+
+  html {
+    font-size: 62.5%;
+  }
+  .header-navbar-c {
+    display: none;
+  }
+
+  /* Convertng Aes-About Section */
+  .Aes-about-containt-container {
+    grid-template-columns: 1fr;
+  }
+  .join-cource-tab {
+    grid-row: 3;
+    padding: 3rem;
+  }
+  .About-abhinav {
+    justify-self: center;
+  }
+  .Common-About {
+    justify-self: center;
+  }
+  .jct-heading {
+    font-size: 1.6rem;
+  }
+  /* 
+  Aes-featured-Cources-Section  Section-5 */
+  .feature-btn-container {
+    display: none;
+  }
+  .featured-cources-box-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Feature-BOX {
+    max-width: 46rem;
+    justify-self: center;
+  }
+  .youtube-frame-container {
+    width: 62rem;
+    height: 35rem;
+  }
+  .responsive-iframe {
+    width: 62rem;
+    height: 35rem;
+  }
+  .AESS-container {
+    grid-template-columns: 1fr;
+  }
+  .aess-common-card {
+    justify-self: center;
+  }
+  @media screen and (max-width: 50em) {
+    .youtube-frame-container {
+      width: 52rem;
+      height: 35rem;
+    }
+    .responsive-iframe {
+      width: 52rem;
+      height: 35rem;
+    }
+    .YFP-Latest-News-bottom-media {
+      max-width: 46rem;
+      justify-self: center;
+    }
+    .footer-info-inner-container {
+      padding: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 50em) {
+    .Aes-social-l-c {
+      gap: 2rem;
+    }
+    .Aes-header-container {
+      justify-content: center;
+    }
+    .Aes-social-l-c {
+      justify-content: center;
+      align-items: center;
+    }
+    .aes-text-link:link,
+    .aes-text-link:visited {
+      font-size: 1.6rem;
+    }
+    .Aes-hero-section {
+      background-position: center;
+    }
+    .hero-admission-sub-text {
+      font-size: 1.6rem;
+    }
+    .heading-primary {
+      font-size: 3rem;
+    }
+    .inner-text {
+      font-size: 1.4rem;
+    }
+    .header-nav {
+      display: none;
+    }
+    .join-cource-tab {
+      padding: 1rem;
+    }
+    .join-cource-tab-inner-c {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .heading-text-container-f {
+      text-align: center;
+    }
+    .Feature-section-inner-c {
+      align-items: center;
+      justify-content: center;
+    }
+    /* .feature-section-heading-c {
+      justify-content: center;
+    } */
+    .features-cources-heading {
+      display: inline-block;
+    }
+    .jct-text-container {
+      text-align: center;
+    }
+    .jct-heading {
+      padding: 0;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+    .youtube-frame-container {
+      width: 32rem;
+      height: 24rem;
+    }
+    .responsive-iframe {
+      width: 32rem;
+      height: 24rem;
+    }
+    .footer-info-inner-container {
+      text-align: center;
+      grid-template-columns: 1fr;
+    }
+    .About-Abhinav-footer-c {
+      align-items: center;
+    }
+    .newsletter-footer-c {
+      align-items: center;
+    }
+    .footer-copyright-text {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 26.5em) {
+    .Aes-social-l-c {
+      justify-content: space-around;
+    }
+    .Aes-header-nav-bar {
+      padding: 1.6rem;
+    }
+    .hero-admission-sub-text {
+      font-size: 1.4rem;
+    }
+    .hero-paragraph {
+      font-size: 1.4rem;
+    }
+    .heading-primary {
+      font-size: 2.6rem;
+    }
+    .button-apply:link {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    .Feature-BOX {
+      box-shadow: none;
+    }
+    .aess-common-card {
+      box-shadow: none;
+    }
+    .footer-copyright-text {
+      font-size: 1.2rem;
+    }
+    .take-tour-text-c {
+      margin-top: 3.4rem;
+    }
+    .Aes-about-abhinav {
+      margin-bottom: 9.6rem;
+    }
+    .footer-text-input {
+      margin-bottom: 2.2rem;
+    }
+    .event-time {
+      font-size: 1.2rem;
+    }
+    .event-inner-text-box {
+      padding: 0.5rem;
+    }
+    .Resources-footer-c {
+      gap: 3rem;
+    }
+    .Cources-footer-c {
+      gap: 3rem;
+    }
+    .About-Abhinav-footer-c {
+      gap: 3rem;
+    }
+  }
+}
